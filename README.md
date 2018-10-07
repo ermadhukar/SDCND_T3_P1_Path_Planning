@@ -40,8 +40,11 @@ In a nutshell, it should emulate a real driver behavior as close as possible.
 ## Implementation
 
 Based on the skeleton code provided in the project, path planning code has been implemented in the main.cpp. Apart from given header file spline.h has been included in the code to get a smooth lane shift trajectory. Path planning code has been segregated in following parts: 
+
 > Setting vehicle initial state and parametrization
+
 > Predicting the traffic
+
 > Creating the trajectory
 
 While doing so, vehcile need to operate within speed limit without crossing suggested acceleration and jerk values. 
@@ -169,9 +172,14 @@ It creates a smooth path for the vehicle to follow.
 ## Compiling: 
 
 > Clone the repo
+
 > Make a build directory: mkdir build && cd build
+
 > Compile the code using: cmake .. && make
+
 > Run: ./path_planning
+
 > Open the simulator and see the visualization
 
 
+![](https://github.com/ermadhukar/SDCND_T3_P1_Path_Planning/blob/master/Image_T3P1.png)
